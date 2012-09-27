@@ -122,6 +122,7 @@ var yqlgeo = function(){
   };
 
   function retrieved(o){
+    console.log(o);
     if(o.query.results !== null){
       callback(o.query.results);
     } else {
